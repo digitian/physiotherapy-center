@@ -1,0 +1,24 @@
+.nav-icon {
+  font-size: 25px;
+  color: #fff;
+}
+
+.navbar {
+  z-index: 0;
+}
+
+.fizyocon-brand img {
+  z-index: 2;
+}
+
+.fizyocon-brand::after {
+  content: '';
+  background: linear-gradient(90deg, rgba(255,255,255,1) 70%, #0d6efd 100%);
+  opacity: 1;
+  width: 37vh;
+  height: 75px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}

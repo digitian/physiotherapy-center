@@ -1,0 +1,45 @@
+.header-image {
+  position: absolute;
+  height: 90vh;
+  width: 100%;
+  background-image: url("/assets/images/header-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+.header-image::before {
+  content: "";
+  background-color: #000;
+  opacity: .7;
+  height: 90vh;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+.fc__play-icon {
+  font-size: 70px;
+  color: #ff0000;
+}
+
+.fc__card-doc {
+  border: 1px solid #bd9393;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.fc__card-doc img {
+  border-radius: 3px;
+}
+
+.fc__card-doc .fs-2 {
+  margin-bottom: 10px;
+}
+
+.fc__gallery-image {
+  width: 350px;
+  height: 350px;
+  object-fit: fill;
+}

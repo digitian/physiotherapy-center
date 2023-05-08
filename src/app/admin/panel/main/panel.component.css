@@ -1,0 +1,33 @@
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.list-group {
+  border-radius: 0 !important;
+}
+
+.fc__panel-cat {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+
+.fc__panel-cat:hover {
+  background-color: #777;
+}
+
+.fc__gallerySelection {
+  border: 2px solid #000;
+  padding: 0 !important;
+  cursor: pointer;
+}
+
+.fc__gallerySelection:hover {
+  opacity: .7;
+}
+
+.fc__gallerySelected {
+  opacity: .5 !important;
+}

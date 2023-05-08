@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row">
+    <div class="col-7 mx-auto" style="margin-top: 100px;">
+      <div class="alert alert-danger" *ngIf="error">
+        {{ error }}
+      </div>
+      <div class="card shadow bg-light">
+        <form #form="ngForm" (ngSubmit)="handleAuth(form)">
+          <div class="fw-bold fs-3 text-center text-white card-img-top bg-success mb-4">YETKİLİ PANELİ GİRİŞİ</div>
+          <div class="p-3">
+            <div class="mb-2">
+              <label for="email" class="form-label">E-Posta</label>
+              <input type="email" required email ngModel id="email" name="email" class="form-control">
+            </div>
+            <div class="mb-2">
+              <label for="password" class="form-label">Şifre</label>
+            <input type="password" required minlength="6" ngModel name="password" id="password" class="form-control">
+            </div>
+            <div class="mt-4">
+              <button type="submit" class="btn btn-outline-primary px-5 w-100" [disabled]="form.invalid">Giriş Yap</button>
+            </div>
+            <div *ngIf="loading" class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Loading...</span>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

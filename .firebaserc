@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fizyocon-db": {
+      "hosting": {
+        "health-center": [
+          "fizyocon-db"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fizyocon-db"
+  }
+}

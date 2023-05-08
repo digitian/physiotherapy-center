@@ -1,0 +1,60 @@
+<div class="bg-light">
+  <div class="text-center pt-5">
+    <div class="fw-bold display-4">HAKKIMIZDA</div>
+    <div class="col-lg-6 mx-auto">
+      <div class="fw-light fs-5 pt-3">
+        {{ introText }}
+      </div>
+    <div style="margin: 125px 0;">
+        <a href="{{ introVideo }}"><i class="bi bi-play-circle-fill fc__play-icon"></i></a>
+      </div>
+    </div>
+
+    <div class="fw-bold display-6 mt-5">FİZYOTERAPİSTLERİMİZ</div>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col">
+            <div class="fc__card-doc shadow">
+              <img style="float: left;" src="/assets/images/unknown-pp.jpg" height="200" width="200">
+            <div>
+              <div class="fs-2">{{  firstDoc_Name }}</div>
+              {{ firstDoc_Info }}
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="fc__card-doc shadow">
+          <img style="float: right;" src="/assets/images/unknown-pp.jpg" alt="John Doe" height="200" width="200">
+            <div>
+              <div class="fs-2">{{ secondDoc_Name }}</div>
+              {{ secondDoc_Info }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="fw-bold display-6 mt-5">HİKAYEMİZ</div>
+    <div class="row mt-4">
+      <div class="col-9 mx-auto text-start fw-light fs-5">
+        {{ introStory }}
+      </div>
+    </div>
+
+    <div class="fw-bold display-6 mt-5">GALERİ</div>
+    <div class="container mt-4">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <div class="col" *ngFor="let photo of gallery">
+          <div class="mb-3 shadow">
+            <img class="fc__gallery-image" src="{{ photo.src }}" alt="">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+

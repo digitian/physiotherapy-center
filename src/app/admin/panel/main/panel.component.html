@@ -1,0 +1,395 @@
+<div class="text-center bg-dark p-1 w-100 text-white fs-4">YÖNETİCİ PANELİ</div>
+<div class="container-fluid nopadding">
+  <div class="row">
+    <div class="col-2 nopadding">
+      <div class="h-100 bg-dark">
+        <ul class="list-group text-white " style="position: sticky; top: 0;">
+          <a href="/admin#anasayfa" class="fc__panel-cat">Anasayfa</a>
+          <a href="/admin#randevular" class="fc__panel-cat">Randevular</a>
+          <a href="/admin#mesaj-kutusu" class="fc__panel-cat">Mesaj Kutusu</a>
+          <a href="/admin#giris-sayfasi" class="fc__panel-cat">Giriş Sayfası</a>
+          <a href="/admin#hakkimizda" class="fc__panel-cat">Hakkımızda</a>
+          <a href="/admin#hizmetlerimiz" class="fc__panel-cat">Hizmetlerimiz</a>
+          <a href="/admin#iletisim" class="fc__panel-cat">İletişim Bilgileri</a>
+          <a href="/admin#" class="fc__panel-cat mt-5 align-middle"><i class="bi bi-box-arrow-left text-white pe-3"></i>Çıkış Yap</a>
+        </ul>
+      </div>
+    </div>
+    <div class="col-9 nopadding">
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="anasayfa">
+          ANASAYFA
+        </div>
+      </div>
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="randevular">
+          ONLİNE RANDEVULAR
+        </div>
+        <div class="container-fluid">
+        <div class="fw-light my-2">Toplam <span class="fw-bold">3</span> adet online randevunuz bulunuyor.</div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">İsim</th>
+              <th scope="col">Soyisim</th>
+              <th scope="col">Şikayet</th>
+              <th scope="col">E-Posta</th>
+              <th scope="col">Telefon</th>
+              <th scope="col">Randevu Tarihi</th>
+              <th scope="col">İşlem</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr scope="row">
+              <td class="fw-bold">1</td>
+              <td>Mehmet</td>
+              <td>Yılmaz</td>
+              <td>Omuz Ağrısı</td>
+              <td>mehmet.yilmaz87@gmail.com</td>
+              <td>05328532937</td>
+              <td>28.05.2023 14:30</td>
+              <td><a href="#"><i class="bi bi-trash fs-3 text-primary"></i></a></td>
+            </tr>
+            <tr scope="row">
+              <td class="fw-bold">2</td>
+              <td>Semiha</td>
+              <td>Karadağ</td>
+              <td>Sağ bileğimi incindiği için kullanamıyorum</td>
+              <td>semihakaradagg.1@hotmail.com</td>
+              <td>05445939453</td>
+              <td>29.05.2023 16:00</td>
+              <td><a href="#"><i class="bi bi-trash fs-3 text-primary"></i></a></td>
+            </tr>
+            <tr scope="row">
+              <td class="fw-bold">3</td>
+              <td>Kazım</td>
+              <td>Demir</td>
+              <td>Sol omuz ağrısı</td>
+              <td>kazim.demir@gmail.com</td>
+              <td>05328237432</td>
+              <td>29.05.2023 12:30</td>
+              <td><a href="#"><i class="bi bi-trash fs-3 text-primary"></i></a></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="mesaj-kutusu">
+          MESAJ KUTUSU
+        </div>
+        <div class="container-fluid">
+          <div class="fw-light my-2">Toplam <span class="fw-bold">2</span> yeni mesajınız var.</div>
+          <div class="bg-primary p-3">
+            <div class="accordion accordion-flush" id="fc__inbox">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Sağ bacağım sakat durumda
+                    <div class="ms-auto text-muted ms-3">Rasim Sezer, 19 Nisan 2023 21:13</div>
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" data-bs-parent="#fc__inbox" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit voluptatem tempore accusamus architecto, natus ipsam earum delectus totam officiis, quod adipisci vitae neque aspernatur molestias ut, consequatur libero repellat assumenda praesentium! Laboriosam voluptatem alias veniam voluptas ullam praesentium quasi illum quibusdam. Odit, cum aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse blanditiis quaerat at. Est unde nobis culpa, cupiditate vero iure rerum temporibus, dicta dignissimos facilis quo!
+                    <div class="mt-2">
+                      <span class="fw-bold">Telefon:</span> 05523938437
+                    </div>
+                    <div>
+                      <span class="fw-bold">E-Posta:</span> sezer.rasim82@gmail.com
+                    </div>
+                    <div class="mt-3">
+                      <button type="submit" class="btn btn-primary">Mesajı Sil</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Masaj hizmetleriniz hakkında bir soru
+                    <div class="ms-auto text-muted ms-3">Fenasi Kerim, 20 Nisan 2023 10:49</div>
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" data-bs-parent="#fc__inbox" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure velit voluptatem tempore accusamus architecto, natus ipsam earum delectus totam officiis, quod adipisci vitae neque aspernatur molestias ut, consequatur libero repellat assumenda praesentium! Laboriosam voluptatem alias veniam voluptas ullam praesentium quasi illum quibusdam. Odit, cum aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse blanditiis quaerat at. Est unde nobis culpa, cupiditate vero iure rerum temporibus, dicta dignissimos facilis quo!
+                    <div class="mt-2">
+                      <span class="fw-bold">Telefon:</span> 05234204939
+                    </div>
+                    <div>
+                      <span class="fw-bold">E-Posta:</span> fenasi.kerim31tr@gmail.com
+                    </div>
+                    <div class="mt-3">
+                      <button type="submit" class="btn btn-primary">Mesajı Sil</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="giris-sayfasi">
+          GİRİŞ SAYFASI
+        </div>
+        <form #mainForm="ngForm" class="container mt-3" (ngSubmit)="mainFormSubmit(mainForm)">
+          <div class="row">
+            <div class="col-3">
+              <label for="fc__logoimgval" class="form-label">Logo Resim Dizini:</label>
+            </div>
+            <div class="col-8">
+              <input type="text" ngModel class="form-control" id="fc__logoimgval" name="fc__logoimgval">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__mottoval" class="form-label">Anasayfa Metni:</label>
+            </div>
+            <div class="col-8">
+              <textarea name="fc__mottoval" ngModel id="fc__mottoval" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="mt-3">
+            <button type="submit" class="btn btn-outline-primary" [disabled]="!mainForm.dirty">Uygula</button>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="hakkimizda">
+          HAKKIMIZDA
+        </div>
+        <form #aboutForm="ngForm" class="container mt-3" (ngSubmit)="aboutFormSubmit(aboutForm)">
+          <div class="row">
+            <div class="col-3">
+              <label for="fc__about_maintext" class="form-label">Ana Tanıtım Metni:</label>
+            </div>
+            <div class="col-8">
+              <textarea ngModel name="fc__about_maintext" id="fc__about_maintext" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__about_videolink" class="form-label">Tanıtım Videosu Linki:</label>
+            </div>
+            <div class="col-8">
+              <input ngModel type="text" name="fc__about_videolink" id="fc__about_videolink" class="form-control">
+            </div>
+          </div>
+
+          <hr class="my-3">
+
+          <div class="fs-4 ms-2">
+            1. Doktor
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__about_firstdoc_name" class="form-label">Ad Soyad:</label>
+            </div>
+            <div class="col-8">
+              <input ngModel type="text" name="fc__about_firstdoc_name" id="fc__about_firstdoc_name" class="form-control">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__about_firstdoc_bio" class="form-label">Biyografi:</label>
+            </div>
+            <div class="col-8">
+              <textarea ngModel name="fc__about_firstdoc_bio" id="fc__about_firstdoc_bio" class="form-control"></textarea>
+            </div>
+          </div>
+
+          <div class="fs-4 ms-2 mt-3">
+            2. Doktor
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__about_seconddoc_name" class="form-label">Ad Soyad:</label>
+            </div>
+            <div class="col-8">
+              <input ngModel type="text" name="fc__about_seconddoc_name" id="fc__about_seconddoc_name" class="form-control">
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <label for="fc__about_seconddoc_bio" class="form-label">Biyografi:</label>
+            </div>
+            <div class="col-8">
+              <textarea ngModel name="fc__about_seconddoc_bio" id="fc__about_seconddoc_bio" class="form-control"></textarea>
+            </div>
+          </div>
+
+          <hr class="my-3">
+
+          <div class="row">
+            <div class="col-3">
+              <label for="fc__about_story" class="form-label">Hikaye Yazısı:</label>
+            </div>
+            <div class="col-8">
+              <textarea ngModel name="fc__about_story" id="fc__about_story" class="form-control"></textarea>
+            </div>
+          </div>
+
+          <div class="mt-3">
+            <button type="submit" class="btn btn-outline-primary" [disabled]="!aboutForm.dirty">Uygula</button>
+          </div>
+
+          <hr class="my-3">
+
+          <div class="fs-4 ms-2 mt-3">
+            Galeriyi Düzenle
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <button type="button" class="btn" (click)="toggleAddGalleryMode(1)"><i class="bi bi-plus fs-1 text-primary"></i></button>
+            <button type="button" class="btn" (click)="toggleAddGalleryMode(2)"><i class="bi bi-trash fs-3 text-primary"></i></button>
+          </div>
+
+          <div class="mt-3 fw-light alert" *ngIf="galleryMode == 2">
+            Silmek istediğiniz resimleri seçiniz. Şu an {{ (gallerySelectedTotal==0 ? "seçili bir resim yok" : (gallerySelectedTotal + " adet resim seçtiniz.")) }}
+          </div>
+
+          <div class="mt-1 border p-3" *ngIf="galleryMode == 1">
+            <form #galleryAddForm="ngForm" (ngSubmit)="galleryAddFormSubmit(galleryAddForm)">
+              <div class="row">
+                <div class="col-2">
+                  <label for="fc__gallery_img" class="form-label">Resim Linki:</label>
+                </div>
+                <div class="col-8">
+                  <input ngModel type="text" name="fc__about_gallery_img" id="fc__about_gallery_imgo" class="form-control">
+                </div>
+              </div>
+              <div class="mt-3">
+                <button type="submit" class="btn btn-outline-primary" [disabled]="!galleryAddForm.dirty">Ekle</button>
+              </div>
+            </form>
+          </div>
+
+
+          <div class="row row-cols-3 row-cols-lg-6 row-cols-md-4 gap-2 mt-2" id="galleryTag">
+            <div class="col" *ngFor="let p of gallery" [ngClass]="{'fc__gallerySelection':galleryMode==2, 'fc__gallerySelected':gallerySelected[p.id]}" (click)="randomFuncYa(p.id)" clickable><img src="{{ p.src }}" class="img-fluid h-100"></div>
+          </div>
+          <div *ngIf="galleryMode==2">
+            <button class="btn btn-primary mt-4" [disabled]="gallerySelectedTotal==0" (click)="galleryDeleteFunc()">Seçilenleri Sil</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="hizmetlerimiz">
+          HİZMETLERİMİZ
+        </div>
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <a href="#"><i class="bi bi-plus fs-1 text-primary"></i></a>
+          <a href="#"><i class="bi bi-trash fs-3 text-primary"></i></a>
+        </div>
+        <ul class="list-group w-50">
+          <a href="#" class="list-group-item list-group-item-active">Ortopedik Rehabilitasyon</a>
+          <a href="#" class="list-group-item list-group-item-active">Evde Fizyoterapi ve Rehabilitasyon</a>
+          <a href="#" class="list-group-item list-group-item-active">Geriatrik Rehabilitasyon</a>
+        </ul>
+      </div>
+
+      <div class="p-3">
+        <div class="fs-2 ms-5" id="iletisim">
+          İLETİŞİM BİLGİLERİ
+        </div>
+        <div class="container mt-3">
+          <form #contForm="ngForm" (ngSubmit)="contactFormSubmit(contForm)">
+            <div class="row">
+              <div class="col-3">
+                <label for="fc__contact_phone" class="form-label">Telefon:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_phone" name="fc__contact_phone">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_email" class="form-label">E-Posta:</label>
+              </div>
+              <div class="col-8">
+                <input type="email" ngModel class="form-control" id="fc__contact_email" name="fc__contact_email">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_fax" class="form-label">Faks:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_fax" name="fc__contact_fax">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_facebook" class="form-label">Facebook:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_facebook" name="fc__contact_facebook">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_twitter" class="form-label">Twitter:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_twitter" name="fc__contact_twitter">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_youtube" class="form-label">Youtube:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_youtube" name="fc__contact_youtube">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_whatsapp" class="form-label">Whatsapp:</label>
+              </div>
+              <div class="col-8">
+                <input type="text" ngModel class="form-control" id="fc__contact_whatsapp" name="fc__contact_whatsapp">
+              </div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-3">
+                <label for="fc__contact_address" class="form-label">Adres:</label>
+              </div>
+              <div class="col-8">
+                <textarea name="fc__contact_address" ngModel id="fc__contact_address" class="form-control"></textarea>
+              </div>
+            </div>
+            <div class="mt-3">
+              <button type="submit" class="btn btn-outline-primary" [disabled]="!contForm.dirty">Uygula</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- <div class="row">
+        <div class="col-4 px-3 py-2">
+          <div class="card text-center">
+            <div class="card-title fs-4">Tıklanma Sayısı</div>
+            <div class="card-body">
+              <div class="card-text">
+                5823
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 px-3 py-2"></div>
+      </div> -->
+
+
+
+    </div>
+  </div>
+</div>

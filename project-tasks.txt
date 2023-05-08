@@ -1,0 +1,6 @@
+== FireBase Main: https://console.firebase.google.com/u/0/project/fizyocon-db/overview
+== FireBase DB: https://console.firebase.google.com/u/0/project/fizyocon-db/database/fizyocon-db-default-rtdb/data
+
+- Firebase set up
+- Login page
+- Admin panel
